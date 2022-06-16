@@ -1,0 +1,2948 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+/* LANDING STYLE */
+
+.header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/bgheader.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.topHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 15vh;
+	background-color: transparent;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+	height: 15vh;
+	width: 20vw;
+	background-color: transparent;
+	padding-left: 6.4%;
+}
+.turi{
+	display: flex;
+	height: 15vh;
+	width: 13vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-end;
+	align-items: center;
+    padding-right: 0.4vw;
+	margin-right: 0.2vw;
+    padding-left: 0.6vw;
+}
+.turi a{
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+}
+.avto{
+	display: flex;
+	height: 15vh;
+	width: 4.5vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	justify-content: flex-end;
+	align-items: center;
+    padding-right: 0.4vw;
+	margin-right: 0.2vw;
+    padding-left: 0.6vw;
+}
+.avto a{
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+}
+.akcii{
+	display: flex;
+	height: 15vh;
+	width: 7vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	justify-content: center;
+	align-items: center;
+    padding-right: 0.4vw;
+	margin-right: 0.2vw;
+    padding-left: 0.6vw;
+}
+.akcii a{
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+}
+.proCompany{
+	display: flex;
+	height: 15vh;
+	width: 13vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	justify-content: flex-start;
+	align-items: center;
+    padding-right: 0.8vw;
+	margin-right: 0.2vw;
+    padding-left: 0.6vw;
+}
+.proCompany a{
+	color: white;
+	text-decoration: none;
+	font-size: 3vh;
+}
+.contact{
+	display: flex;
+	flex-direction: row;
+	height: 15vh;
+	width: 24vw;
+	background-color: transparent; 
+	font-family: 'Roboto Condensed', sans-serif;
+	justify-content: center;
+	align-items: center;
+	padding-left: 8.3%;
+	padding-right: 1%;
+}
+.contactname a{
+	color: white;
+	text-decoration: underline;
+	font-size: 3vh;
+}
+.contactimg{
+	height: 15vh;
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.contactimg img{
+	width: 2.5vh;
+	height: 2.5vh;
+	padding-right: 0.3vw;
+	margin-right: 0.1vw;
+}
+.contactname{
+	height: 15vh;
+	width: 75%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.logoimg{
+	height: 12.5vh;
+	width: 35%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.logoimg img{
+	width: 8vh;
+	height: 8vh;
+	border-right: 0.7vh solid #C4F4C7;
+	padding-right: 0.4vw;
+	margin-right: 0.2vw;
+}
+.logoname{
+	height: 12.5vh;
+	width: 65%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Noto Sans Thai Looped', sans-serif;
+	color: #C4F4C7;
+	font-size: 5vh;
+}
+.logoname a{
+	text-decoration: none;
+	font-family: 'Noto Sans Thai Looped', sans-serif;
+	color: #C4F4C7;
+	font-size: 5vh;
+    font-weight: bold;
+}
+.logoname a:hover{
+	cursor: pointer;
+}
+#helper:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.midHeader{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+	width: 100vw;
+	height: 30vh;
+	background-color: transparent;
+    padding-top: 4%;
+}
+
+.text_header_1{
+	display: flex;
+	height: 20vh;
+	width: 100vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+    padding-left: 8.2%;
+	text-decoration: none;
+	color: white;
+	font-size: 7vh;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.text_header_1_1{
+	display: flex;
+	height: 15vh;
+	width: 100vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+    padding-left: 8.2%;
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+    letter-spacing: 3px;
+}
+
+.botHeader{
+	display: flex;
+	justify-content: flex-start;
+	align-items: left;
+	width: 100vw;
+	height: 30vh;
+	background-color: transparent;
+    padding-top: 4%;
+    padding-left: 8.2%;
+}
+
+.button1{ 
+    width: 27vw; 
+    height: 15vh; 
+    background-color: transparent; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 5vh;
+    font-weight: bold; 
+    letter-spacing: 2px;
+    color: white; 
+    border-radius: 5vh; 
+    border: 0.5vh solid white; 
+   } 
+    
+   .button1:hover{ 
+    color: #548C2F; 
+    background-color: #E1FFE3; 
+    transition: 0.3s all; 
+    cursor: pointer;
+    border: 0.6vh solid #548C2F;  
+   } 
+    
+   .button1:not(:hover){ 
+      color: white; 
+      background-color: #548C2F; 
+      transition: 0.3s all; 
+   } 
+    
+   .button1:active{ 
+    background-color: rgba(0, 0, 0, 0.311); 
+   }
+   
+.h_type{
+	display: flex;
+	height: 15vh;
+	width: 100vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+    padding-left: 8.2%;
+	text-decoration: none;
+	color: black;
+	font-size: 6vh;
+    font-weight: bold;
+    letter-spacing: 3px;
+	padding-top: 4%;
+}
+
+#h_type_2{
+	padding-top: 1.5%;
+}
+
+.landing_text{
+	display: flex;
+	height: 60vh;
+	width: 40vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+    margin-left: 8.2%;
+	flex-direction: column;	
+}
+
+.landing_text p{
+	text-decoration: none;
+	color: black;
+	font-size: 3vh;
+	line-height: 1.4;
+	padding-bottom: 3%;
+}
+
+.module_1{
+	display: flex;
+    justify-content: flex-start;
+}
+
+.img_time_to_travel{
+	height: 55vh;
+	width: 50vw;
+	display: flex;
+	justify-content: flex-start;
+	background-color: transparent;
+	padding-left: 4%;
+}
+
+.img_time_to_travel img{
+	width: auto;
+    max-width: 419px;
+    height: auto;
+	max-height: 505px;
+	padding-top: 1%;
+}
+
+.three_cars_tiles_landing{
+	width: 75%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: transparent;
+	margin-left: 12.5%;
+}
+
+.three_cars_tiles_landing a{
+	text-decoration: none;
+}
+
+.inside_one_car_form_landing{
+	width: 100%;
+	height: auto;
+	background-color: #548C2F;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.inside_one_car_form_landing img{
+	width: 100%;
+	height: auto;
+	margin-top: 5vh;
+	max-width: 23vw;
+}
+
+#mustang{
+	margin-bottom: 2vh;
+	margin-top: 3vh;
+}
+
+.inside_one_car_form_landing p{
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 4vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4vh;
+}
+
+.four_tours_palette{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	width: 83.6%;
+	height: 40vh;
+	background-color: transparent;
+	padding-left: 8.2%;
+}
+
+.four_tours_form{
+	width: 19vw;
+    height: 40vh;
+	background-color: transparent;
+}
+
+.four_tours_form img{
+	width: 100%;
+    max-width: 380px;
+    height: auto;
+	max-height: 38vh;
+}
+
+.four_pros_palette{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 44vh;
+	background-color: transparent;
+	margin-top: 1vh;
+	margin-bottom: 10vh;
+}
+
+.two_pros_block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 35%;
+	height: 44vh;
+	background-color: transparent;
+}
+
+#two_pros_block_1{
+	margin-left: 7%;
+}
+
+.two_pros_block p{
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 4vh;
+	color: black;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4vh;
+	font-weight: bold;
+	padding-right: 10vh;
+	text-align: center;
+}
+
+.four_pros_form{
+	width: auto;
+    height: auto;
+	background-color: transparent;
+}
+
+.four_pros_form img{
+	width: 70%;
+    max-width: 260px;
+    height: auto;
+	max-height: 322px;
+}
+
+.footer{
+	width: 100vw;
+	height: 65vh;
+	background-color: #4D6A6D;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10vh;
+}
+
+.topFooter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100vw;
+	height: 40vh;
+	background-color: transparent;
+	padding-left: 8.2%;
+}
+
+.footer_headers{
+	display: flex;
+	height: 7vh;
+	width: 19vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	text-decoration: none;
+	color: white;
+    font-weight: bold;
+	font-size: 4vh;
+}
+
+.footer_text_line{
+	display: flex;
+	height: 5vh;
+	width: 15vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+}
+
+.footer_text_line:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer_link{
+text-decoration: none;
+color: white;
+}
+
+.footer_icons_block{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 30%;
+	height: 40vh;
+	background-color: transparent;
+	padding-right: 8.2%;
+}
+
+.two_icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 21vw;
+	height: 10vh;
+	background-color: transparent;
+	padding-bottom: 5%;
+}
+
+.icon_blocks{
+	padding-left: 7%;
+}
+
+.icon_blocks img{
+	width: 4vw;
+    max-width: 4vw;
+    height: auto;
+	max-height: auto;
+}
+
+.botFooter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100vw;
+	height: 15vh;
+    padding-top: 4%;
+	background-color: transparent;
+}
+
+.logo2{
+	display: flex;
+	height: 15vh;
+	width: 75vw;
+	background-color: transparent; 
+	justify-content: flex-start;
+	padding-left: 8.2%;
+}
+
+.contact2{
+	display: flex;
+	height: 15vh;
+	width: 50vw;
+	background-color: transparent; 
+	padding-left: 10%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.contactname2 a{
+	color: white;
+	text-decoration: none;
+	font-size: 3vh;
+}
+.contactimg2{
+	height: 15vh;
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-left: 19%;
+}
+.contactimg2 img{
+	width: 2.5vh;
+	height: 2.5vh;
+	padding-right: 0.3vw;
+	margin-right: 0.1vw;
+}
+.contactname2{
+	height: 15vh;
+	width: 10vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: transparent;
+}
+.logoimg2{
+	height: 12.5vh;
+	width: 10%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.logoimg2 img{
+	width: 8vh;
+	height: 8vh;
+	border-right: 0.7vh solid white;
+	padding-right: 0.4vw;
+	margin-right: 0.2vw;
+}
+.logoname2{
+	height: 12.5vh;
+	width: 25%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: transparent;
+}
+.logoname2 a{
+	text-decoration: none;
+	font-family: 'Noto Sans Thai Looped', sans-serif;
+	color: white;
+	font-size: 5vh;
+    font-weight: bold;
+}
+.logoname2 a:hover{
+	cursor: pointer;
+}
+
+
+/* page: СARS Style*/
+
+.header_cars{
+	width: 100vw;
+	height: 57vh;
+	background-color: #4D6A6D;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nine_cars_tiles{
+	margin-top: 1vh;
+	margin-left: 13.5vw;
+	display: flex;
+	width: 73vw;
+	height: 246.4vh;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+.three_cars_tiles{
+	width: 73vw;
+	height: 80vh;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: transparent;
+}
+
+#three_cars_tiles_1{
+	margin-bottom: 3.2vh;
+}
+
+#three_cars_tiles_3{
+	margin-top: 3.2vh;
+}
+
+.one_car_form{
+	width: 23vw;
+	height: 80vh;
+	background-color: #C4F4C7;
+	border-radius: 4vh 4vh 4vh 4vh;
+}
+
+.inside_one_car_form{
+	width: 23vw;
+	height: 40vh;
+	background-color: #548C2F;
+	border-radius: 4vh 4vh 0 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.inside_one_car_form img{
+	width: 23vw;
+	height: 35vh;
+	margin-top: 5vh;
+	max-width: 23vw;
+}
+
+.inside_one_car_form p{
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 4vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 4vh;
+}
+
+.inside_car_form_text{
+	color: #414848;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3.66vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 2vw;
+}
+
+#car_name{
+	color: black;
+	font-size: 4.23vh;
+	padding-top: 3vh;
+	padding-bottom: 1vh;
+}
+
+.button_car{ 
+    width: 18vw; 
+    height: 10vh; 
+    background-color: transparent; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 5.71vh;
+    letter-spacing: 2.5px;
+    color: white; 
+	font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4vh; 
+    border: 0.3vh solid black;
+	margin-top: 4vh;
+	margin-left: 2.5vw; 
+	font-weight: 100;
+   } 
+    
+   .button_car:hover{ 
+    color: black; 
+    background-color: #E1FFE3; 
+    transition: 0.3s all; 
+    cursor: pointer;
+    border: 0.5vh solid black;  
+   } 
+    
+   .button_car:not(:hover){ 
+      color: black; 
+      background-color: transparent; 
+      transition: 0.3s all;
+	  font-weight: 100; 
+   } 
+    
+   .button_car:active{ 
+    background-color: rgba(0, 0, 0, 0.311); 
+   }
+
+.button_more{ 
+    width: 23vw; 
+    height: 12vh; 
+    background-color: transparent; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 5.71vh;
+    letter-spacing: 2.5px;
+    color: white; 
+	font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4vh; 
+    border: 0.4vh solid #548C2F;
+	margin-top: 6vh; 
+	font-weight: bold;
+	margin-left: 38.5vw;
+	margin-bottom: 18vh;
+   } 
+    
+   .button_more:hover{ 
+    color: #548C2F; 
+    background-color: #E1FFE3; 
+    transition: 0.3s all; 
+    cursor: pointer;
+    border: 0.6vh solid #548C2F;  
+   } 
+    
+   .button_more:not(:hover){ 
+      color: #548C2F; 
+      background-color: #C4F4C7; 
+      transition: 0.3s all;
+	  font-weight: bold; 
+   } 
+    
+   .button_more:active{ 
+    background-color: rgba(0, 0, 0, 0.311); 
+   }
+
+
+/* page: TOURS Style*/
+
+.six_tours_tiles{
+	margin-top: 1vh;
+	margin-left: 13.5vw;
+	display: flex;
+	width: 73vw;
+	height: 163.2vh;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+.inside_one_tour_form{
+	width: 23vw;
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 4vh 4vh 0 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#tour_img_1{
+	background-image: url(../images/germany.png);
+}
+#tour_img_2{
+	background-image: url(../images/srilanka.png);
+}
+#tour_img_3{
+	background-image: url(../images/ukraine.png);
+}
+#tour_img_4{
+	background-image: url(../images/bali.png);
+}
+#tour_img_5{
+	background-image: url(../images/dubai.png);
+}
+#tour_img_6{
+	background-image: url(../images/turkey.png);
+}
+
+.inside_one_tour_form p{
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 4vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 29.3vh;
+}
+
+
+/* page: COMPANY Style*/
+
+.text_header_2{
+	display: flex;
+	height: 20vh;
+	width: 100vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+    padding-left: 8.2%;
+	text-decoration: none;
+	color: white;
+	font-size: 7vh;
+    font-weight: bold;
+    letter-spacing: 3px;
+	margin-bottom: 3vh;
+}
+
+.text_header_2_2{
+	display: flex;
+	height: 15vh;
+	width: 100vw;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+    padding-left: 8.2%;
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+    letter-spacing: 3px;
+	margin-bottom: 12vh;
+}
+
+.header_info{
+	width: 100vw;
+	height: 57vh;
+	background-image: url(../images/bgheader2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#but2{
+	margin-top: 3vh; 
+	margin-left: 36.5vw;
+	margin-bottom: 18vh;
+}
+
+.text_block_company{
+	display: flex;
+	height: 85vh;
+	width: 83.6%;
+	background-color: transparent;
+	justify-content: space-between;
+	align-items: center;
+    margin-left: 8.2%;
+	flex-direction: row;	
+}
+
+.text_about_company{
+	display: flex;
+	height: 85vh;
+	width: 48%;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.text_about_company p{
+	text-decoration: none;
+	color: black;
+	font-size: 3vh;
+	line-height: 1.4;
+	margin-bottom: 3%;
+}
+
+.img_block_company{
+	display: flex;
+	height: 83vh;
+	width: 47%;
+	background-color: transparent;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.img_block_company img{
+	height: auto;
+	width: 37vw;
+	max-width: 41vw;
+}
+
+#pic_2{
+	margin-bottom: 4.8vh;
+}
+
+/* page: SALES Style*/
+
+.header_sales{
+	width: 100vw;
+	height: 57vh;
+	background-image: url(../images/bgheader3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text_block_sales{
+	display: flex;
+	height: 127vh;
+	width: 83.6%;
+	background-color: transparent;
+	justify-content: space-between;
+	align-items: center;
+    margin-left: 8.2%;
+	flex-direction: row;	
+}
+
+.text_about_sales{
+	display: flex;
+	height: 127vh;
+	width: 48%;
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif; 
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.text_about_sales p{
+	text-decoration: none;
+	color: black;
+	font-size: 3vh;
+	line-height: 1.4;
+}
+
+#p_s_1{
+	margin-top: 1vh;
+	height: 40vh;
+	background-color: transparent;
+}
+#p_s_2{
+	margin-top: 3.5vh;
+	background-color: transparent;
+	height: 39vh;
+}
+#p_s_3{
+	margin-top: 4vh;
+	background-color: transparent;
+	height: 39vh;
+}
+
+.img_block_sales{
+	display: flex;
+	height: 127vh;
+	width: 49%;
+	background-color: transparent;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.img_block_sales img{
+	height: auto;
+	width: 41vw;
+	max-width: 41vw;
+}
+
+#but3{
+	margin-top: 6vh; 
+	margin-left: 36.5vw;
+	margin-bottom: 18vh;
+}
+
+/* page: MAINCONTACT Style*/
+
+.main_contact{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/bgheader.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_block{
+	width: 70vw;
+	height: 80vh;
+	background-color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4vh; 
+	border: 0.6vh solid #4D6A6D;
+}
+
+.main_block p{
+	font-size: 5vh;
+	display: flex;
+	justify-content: center;
+}
+
+.module{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#p_m_1{
+	font-size: 7vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#p_m_2{
+	margin-bottom: 2vh;
+}
+
+#p_m_number{
+	margin-bottom: 1.5vh;
+}
+
+#p_m_3{
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+#p_m_4{
+	color: #414848;
+	font-size: 4vh;
+	margin-top: 2vh;
+}
+
+#phone_number a{
+	font-size: 8vh;
+	color: #548C2F;
+	text-decoration: none;
+}
+
+#phone_number:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.call_maker{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70vw;
+}
+
+.call_input{   
+    width: 36vw; 
+    border: 0;
+    font-size: 7vh;
+	letter-spacing: 3px;
+	background-color: transparent;
+	margin-left: 8vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.call_input::placeholder{
+    color:black;
+}
+
+.call_input:focus{
+    outline: 0;
+}
+
+.call_button{ 
+    width: 29vw; 
+    height: 9vh; 
+    background-color: transparent; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 5vh;
+    letter-spacing: 2.5px;
+    color: white; 
+	font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4vh; 
+    border: 0.4vh solid #548C2F;
+	font-weight: bold;
+	margin-top: 1vh; 
+	margin-left: 7.5vw;
+	margin-bottom: 1vh;
+   } 
+    
+   .call_button:hover{ 
+    color: #548C2F; 
+    background-color: #E1FFE3; 
+    transition: 0.3s all; 
+    cursor: pointer;
+    border: 0.6vh solid #548C2F;  
+   } 
+    
+   .call_button:not(:hover){ 
+      color: #548C2F; 
+      background-color: #C4F4C7; 
+      transition: 0.3s all;
+	  font-weight: bold; 
+   } 
+    
+   .call_button:active{ 
+    background-color: rgba(0, 0, 0, 0.311); 
+   }
+
+#but4{
+	margin-top: 3vh; 
+	margin-left: 21.5vw;
+	height: 11vh;
+}
+
+/*burger style*/
+
+#burger, [for=burger]{
+    display: none;
+}
+.burger_checkbox{
+	display: none;
+}
+.burger_nav{
+	display: none;
+}
+
+
+/* Adaptation (best fits with 643px height) */
+
+@media (max-width: 1366px){
+	/*index*/
+	.logo{
+		width: 25vw;
+	}
+	.landing_text{
+		height: 65vh;
+		width: 50vw;
+	}
+	.img_time_to_travel{
+		height: 65vh;
+	}
+	.four_pros_palette{
+		height: 45vh;
+	}
+	.two_pros_block{
+		height: 45vh;
+	}
+	/*sales*/
+	.text_block_sales{
+		height: 140vh;	
+	}
+	.text_about_sales{
+		height: 140vh;
+	}
+	.text_about_sales p{
+		line-height: 1.2;
+	}
+	.img_block_sales{
+		background-color: transparent;
+		height: 140vh;
+		justify-content: flex-start;
+	}
+	.sale_img{
+		margin-bottom: 5%;
+	}
+	#p_s_1{
+		margin-top: 0vh;
+		height: auto;
+		background-color: transparent;
+	}
+	#p_s_2{
+		margin-top: 10%;
+		background-color: transparent;
+		height: auto;
+	}
+	#p_s_3{
+		margin-top: 10%;
+		background-color: transparent;
+		height: auto;
+	}
+	.footer_headers{
+		width: 25vw;
+	}
+	.footer_icons_block{
+		background-color: transparent;
+		width: 24vw;
+	}
+	.two_icons{
+		background-color: transparent;
+		width: 15vw;
+	}
+}
+
+@media (max-width: 1300px){
+	/*index*/
+	.contact{
+		padding-right: 3.5%;
+	}
+	.landing_text{
+		height: auto;
+	}
+	.footer_text_line{
+		width: auto;
+	}
+	.two_icons{
+		padding-bottom: 1%;
+	}
+	.two_pros_block p{
+		font-size: 3.2vh;
+		padding-right: 9vh;
+	}
+	.four_tours_palette{
+		height: auto;
+	}
+	.four_tours_form{
+		height: auto;
+	}
+	.four_pros_palette{
+		margin-bottom: 1vh;
+	}
+	.botFooter{
+		margin-top: 3vh;
+	}
+	.logoname2 a{
+		font-size: 4vh;
+	}
+	.logoimg2 img{
+		width: 6vh;
+		height: 6vh;
+	}
+	.contact2{
+		width: 60vw;
+		height: 10vh;
+		padding-top: 1vh;
+		margin-right: 3vw;
+	}
+	.contactname2{
+		width: 15vw;
+		margin-bottom: 2vh;
+	}
+	.footer{
+		height: 60vh;
+		padding-top: 5vh;
+	}
+	.botFooter{
+		background-color: transparent;
+		padding-top: 2%;
+		height: 11vh;
+	}
+	.topFooter{
+		background-color: transparent;
+		height: 40vh;
+	}
+	.logo2{
+		height: 10vh;
+		width: 100%;
+	}
+	.contactimg2{
+		height: 7.5vh;
+	}
+	.contactname2{
+		height: 7.5vh;
+	}
+	.logoimg2{
+		height: 8.5vh;
+	}
+	.logoname2{
+		height: 8.5vh;
+	}
+	.footer_headers{
+		width: 23vw;
+	}
+	/*company*/
+	.text_about_company{
+		background-color: transparent;
+		height: auto;
+	}
+	.text_block_company{
+		height: auto;
+		background-color: transparent;
+	}
+	.img_block_company{
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-color: transparent;
+		align-self: start;
+	}
+	#pic_2{
+		margin-top: 10%;
+	}
+	#but2{
+		margin-top: 3vh; 
+		margin-left: 35%;
+		margin-bottom: 18vh;
+		width: 30%;
+	}
+	/*cars*/
+	.inside_one_car_form img{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+	.button_car{
+		font-size: 4.5vh;
+	}
+	.nine_cars_tiles{
+		height: auto;
+		background-color: transparent;
+	}
+	/*maincontact*/
+	.main_block{
+		width: 90vw;
+		height: auto;
+	}
+	.call_maker{
+		width: 90vw;
+		background-color: transparent;
+	}
+	.call_input{   
+		width: 85%;
+		margin-left: 10%;
+		background-color: transparent;
+	} 
+	.call_button{ 
+		width: 80%;
+		margin-left: 12%;
+	}
+	#but4{
+		width: 30%;
+		margin-left: 35%;
+	}
+}
+
+@media (max-width: 992px){
+	/*index*/
+	.header{
+		height: 85vh;
+	}
+	.logo{
+		width: 29vw;
+		margin-top: 1vh;
+	}
+	.logoimg img{
+		width: 6vh;
+		height: 6vh;
+	}
+	.logoname{
+		font-size: 4vh;
+	}
+	.logoname a{
+		font-size: 4vh;
+	}
+	.akcii a{
+		font-size: 2.7vh;
+	}
+	.avto a{
+		font-size: 2.7vh;
+	}
+	.avto{
+		width: 6vw;
+	}
+	.turi a{
+		font-size: 2.7vh;
+	}
+	.proCompany a{
+		font-size: 2.7vh;
+	}
+	.proCompany{
+		width: 18vw;
+	}
+	.contactname a{
+		font-size: 2.7vh;
+	}
+	.contactimg img{
+		width: 2.2vh;
+		height: 2.2vh;
+	}
+	.contact{
+		padding-right: 8%;
+		padding-left: 3%;
+	}
+	.topHeader{
+		height: 16vh;
+	}
+	.text_header_1{
+		font-size: 5vh;
+	}
+	.text_header_1_1{
+		font-size: 2.7vh;
+		letter-spacing: 2px;
+		height: 5vh;
+	}
+	.midHeader{
+		padding-top: 1vh;
+	}
+	.botHeader{
+		padding-top: 2vh;
+	}
+	.button1{
+		width: 35vw; 
+    	height: 12vh;
+		font-size: 4vh;
+		letter-spacing: 1.5px; 
+		border: 0.4vh solid white; 
+	}
+	.h_type{
+		font-size: 5vh;
+		padding-top: 2%;
+		letter-spacing: 2px;
+	}
+	.landing_text p{
+		font-size: 2.7vh;
+	}
+	.img_time_to_travel{
+		height: 55vh;
+		width: 50vw;
+		padding-left: 4%;
+	}
+	.two_pros_block p{
+		font-size: 3vh;
+		padding-right: 7vh;
+	}
+	.four_pros_palette{
+		height: 35vh;
+		margin-bottom: 1vh;
+	}
+	.two_pros_block{
+		height: 35vh;
+	}
+	#h_type_2{
+		padding-top: 0%;
+	}
+	.botFooter{
+		margin-top: 3vh;
+	}
+	.logoname2 a{
+		font-size: 4vh;
+	}
+	.logoimg2 img{
+		width: 6vh;
+		height: 6vh;
+	}
+	.logoname2{
+		width: 25vw;
+	}
+	.contact2{
+		width: 33vw;
+		height: 10vh;
+		padding-top: 1vh;
+		background-color: transparent;
+		padding-left: 0vw;
+		margin-right: 0vw;
+		justify-content: flex-start;
+	}
+	.contactimg2{
+		padding-left: 2%;
+	}
+	.contactname2{
+		width: 16vw;
+		margin-bottom: 2vh;
+	}
+	.footer{
+		height: 48vh;
+		padding-top: 5vh;
+	}
+	.botFooter{
+		background-color: transparent;
+		padding-top: 2%;
+		height: 11vh;	
+	}
+	.topFooter{
+		background-color: transparent;
+		height: 30vh;
+	}
+	.logo2{
+		height: 10vh;
+		width: 60vw;
+		background-color: transparent;
+	}
+	.footer_icons_block{
+		width: 20vw;
+		height: 30vh;
+		margin-right: 8.2%;
+		background-color: transparent;
+	}
+	.two_icons{
+		width: 16vw;
+		height: 7vh;
+		padding-bottom: 5%;
+	}
+	.icon_blocks img{
+		width: 5vw;
+		max-width: 5vw;
+	}
+	.footer_headers{
+		height: 4vh;
+		width: 15vw;
+		font-size: 3vh;
+	}
+	.footer_text_line{
+		height: 4vh;
+		width: 28vw;
+		font-size: 2.7vh;
+	}
+	.inside_one_car_form_landing p{
+		font-size: 3vh;
+		padding-bottom: 3vh;
+	}
+	/*sales*/
+	.text_header_2{
+		font-size: 5vh;
+		height: 7vh;
+		margin-top: 3vh;
+	}
+	.text_header_2_2{
+		font-size: 2.7vh;
+		letter-spacing: 2px;
+		height: 5vh;
+	}
+	.footer_icons_block{
+		background-color: transparent;
+		width: 22vw;
+	}
+	.two_icons{
+		background-color: transparent;
+		width: 15vw;
+		height: auto;
+		margin-left: 3%;
+	}
+	.footer_headers{
+		width: 25vw;
+	}
+	.text_block_sales{
+		height: 170vh;	
+	}
+	.text_about_sales{
+		height: 170vh;
+	}
+	.text_about_sales p{
+		line-height: 1.2;
+	}
+	#p_s_1{
+		margin-top: 0vh;
+		height: auto;
+		background-color: transparent;
+	}
+	#p_s_2{
+		margin-top: 5%;
+		background-color: transparent;
+		height: auto;
+	}
+	#p_s_3{
+		margin-top: 5%;
+		background-color: transparent;
+		height: auto;
+	}
+	.img_block_sales{
+		background-color: transparent;
+		height: 170vh;
+		justify-content: flex-start;
+	}
+	.sale_img{
+		margin-bottom: 10%;
+	}
+	#but3{
+		margin-top: 4vh; 
+		margin-left: 32.5vw;
+		margin-bottom: 18vh;
+	}
+	/*company*/
+	#but2{
+		margin-top: 4vh; 
+		margin-left: 32.5%;
+		margin-bottom: 18vh;
+		width: 35%;
+	}
+	.text_block_company{
+		background-color: transparent;
+		flex-direction: column;
+	}
+	.text_about_company{
+		background-color: transparent;
+		width: auto;
+		margin-bottom: 5%;
+	}
+	.img_block_company{
+		background-color: transparent;
+		width: auto;
+		height: auto;
+	}
+	.img_block_company img{
+		width: 90vw;
+		height: auto;
+		max-width: 90vw;
+	}
+	#pic_2{
+		margin-top: 2%;
+		margin-bottom: 10%;
+	}
+	/*cars*/
+	.inside_one_car_form img{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+	.button_car{
+		font-size: 4vh;
+		height: 8vh;
+		letter-spacing: 0.5px;
+	}
+	.nine_cars_tiles{
+		height: auto;
+		background-color: transparent;
+	}
+	.inside_car_form_text{
+		font-size: 3vh;
+		line-height: 4vh;
+	}
+	#car_name{
+		font-size: 3.5vh;
+	}
+	.one_car_form{
+		height: 70vh;
+	}
+	.inside_one_car_form{
+		height: 35vh;
+	}
+	.inside_one_car_form p{
+		margin-top: 5%;
+		font-size: 3vh;
+	}
+	.three_cars_tiles{
+		background-color: transparent;
+		height: 70vh;
+	}
+	.button_more{
+		height: 10vh;
+		width: 30%;
+		margin-left: 35%;
+		margin-bottom: 12vh;
+		margin-top: 4vh;
+	}
+	/*tours*/
+	.inside_one_tour_form img{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+	.six_tours_tiles{
+		height: auto;
+		background-color: transparent;
+	}
+	.inside_one_tour_form p{
+		margin-top: 0%;
+		font-size: 3vh;
+		margin-bottom: 2%;
+	}
+	.inside_one_tour_form{
+		height: 35vh;
+	}
+	/*maincontact*/
+	.main_block{
+		width: 90vw;
+		height: auto;
+	}
+	.main_block p{
+		font-size: 4vh;
+	}
+	#p_m_1{
+		font-size: 6vh;
+	}
+	#p_m_4{
+		font-size: 3vh;
+	}
+	#phone_number a{
+		font-size: 7vh;
+	}
+	.call_input{   
+		width: 85%;
+		font-size: 6vh;
+		letter-spacing: 3px;
+		background-color: transparent;
+		margin-left: 10%;
+	}
+	.call_maker{
+		width: 90vw;
+		background-color: transparent;
+	}
+	.call_button{ 
+		width: 80%;
+		margin-left: 12%;
+		font-size: 4vh;
+	}
+	#but4{
+		width: 30%;
+		margin-left: 35%;
+	}
+}
+
+@media (max-width: 768px){
+	/*index*/
+	.header{
+		height: 65vh;
+	}
+	.logo{
+		width: 29vw;
+		margin-top: 1vh;
+	}
+	.logoimg img{
+		width: 5vh;
+		height: 5vh;
+		border-right: 0.5vh solid #C4F4C7;
+	}
+	.logoname{
+		font-size: 3vh;
+		height: 13vh;
+	}
+	.logoname a{
+		font-size: 3vh;
+	}
+	.logoimg{
+		height: 13vh;
+	}
+	.akcii a{
+		font-size: 2vh;
+	}
+	.akcii{
+		height: 10vh;
+	}
+	.avto a{
+		font-size: 2vh;
+	}
+	.avto{
+		width: 6vw;
+		height: 10vh;
+	}
+	.turi a{
+		font-size: 2vh;
+	}
+	.turi{
+		height: 10vh;
+	}
+	.proCompany a{
+		font-size: 2vh;
+	}
+	.proCompany{
+		width: 18vw;
+		height: 10vh;
+	}
+	.contactname a{
+		font-size: 2vh;
+		height: 10vh;
+	}
+	.contactname{
+		height: 10vh;
+	}
+	.contactimg img{
+		width: 2vh;
+		height: 2vh;
+	}
+	.contactimg{
+		height: 10vh;
+	}
+	.contact{
+		padding-right: 8%;
+		padding-left: 3%;
+		height: 10vh;
+	}
+	.topHeader{
+		height: 16vh;
+	}
+	.text_header_1{
+		font-size: 4vh;
+	}
+	.text_header_1_1{
+		font-size: 2vh;
+		letter-spacing: 1.5px;
+		height: 2.5vh;
+	}
+	.midHeader{
+		padding-top: 0vh;
+		height: 20vh;
+	}
+	.botHeader{
+		padding-top: 1vh;
+		height: 18vh;
+	}
+	.button1{
+		width: 40vw; 
+    	height: 10vh;
+		font-size: 3vh;
+		letter-spacing: 1.5px; 
+		border: 0.4vh solid white; 
+		margin-top: 6vh;
+	}
+	.h_type{
+		font-size: 4vh;
+		padding-top: 2%;
+		letter-spacing: 2px;
+		height: 12vh;
+	}
+	.landing_text p{
+		font-size: 2vh;
+	}
+	.img_time_to_travel{
+		height: 40vh;
+		width: 30vw;
+		padding-left: 4%;
+	}
+	.two_pros_block p{
+		font-size: 2.2vh;
+		padding-right: 5vh;
+	}
+	.four_pros_palette{
+		height: 28vh;
+		margin-bottom: 1vh;
+	}
+	.two_pros_block{
+		height: 28vh;
+	}
+	.four_tours_palette{
+		height: 23vh;
+	}
+	#h_type_2{
+		padding-top: 0%;
+		height: 10vh;
+	}
+	.logoname2 a{
+		font-size: 3vh;
+	}
+	.logoimg2 img{
+		width: 5vh;
+		height: 5vh;
+	}
+	.logoname2{
+		width: 25vw;
+		padding-left: 0.4%;
+	}
+	.contact2{
+		width: 33vw;
+		height: 10vh;
+		padding-top: 1vh;
+		background-color: transparent;
+		padding-left: 0vw;
+		margin-right: 0vw;
+		justify-content: flex-start;
+	}
+	.contactimg2{
+		padding-left: 0%;
+	}
+	.contactimg2 img{
+		width: 2vh;
+		height: 2vh;
+	}
+	.contactname2{
+		width: 16vw;
+		margin-bottom: 2vh;
+	}
+	.contactname2 a{
+		font-size: 2vh;
+	}
+	.footer{
+		height: 38vh;
+		padding-top: 3vh;
+	}
+	.botFooter{
+		background-color: transparent;
+		padding-top: 0%;
+		height: 11vh;
+		margin-top: 1.5vh;	
+	}
+	.topFooter{
+		background-color: transparent;
+		height: 25vh;
+	}
+	.logo2{
+		height: 10vh;
+		width: 72vw;
+		background-color: transparent;
+	}
+	.footer_icons_block{
+		width: 20vw;
+		height: 20vh;
+		margin-right: 8.2%;
+		background-color: transparent;
+	}
+	.two_icons{
+		width: 16vw;
+		height: 5.5vh;
+		padding-bottom: 5%;
+		padding-left: 5%;
+	}
+	.icon_blocks img{
+		width: 5vw;
+		max-width: 5vw;
+	}
+	.footer_headers{
+		height: 4vh;
+		width: 15vw;
+		font-size: 2.2vh;
+		letter-spacing: 0.2px;
+		background-color: transparent;
+	}
+	.footer_text_line{
+		height: 3vh;
+		width: 28vw;
+		font-size: 2vh;
+		background-color: transparent;
+	}
+	.inside_one_car_form_landing p{
+		font-size: 3vh;
+		padding-bottom: 3vh;
+	}
+	/*sales*/
+	.text_header_2{
+		font-size: 4vh;
+		height: 10vh;
+		margin-top: 3vh;
+		margin-bottom: 0vh;
+	}
+	.text_header_2_2{
+		font-size: 2.5vh;
+		letter-spacing: 2px;
+		height: 7vh;
+		margin-bottom: 2vh;
+	}
+	.midHeader{
+		background-color: transparent;
+	}
+	#but3{
+		margin-top: 4vh; 
+		margin-left: 30vw;
+		margin-bottom: 10vh;
+	}
+	.footer_icons_block{
+		background-color: transparent;
+		width: 22vw;
+		height: 23vh;
+	}
+	.two_icons{
+		background-color: transparent;
+		width: 15vw;
+		height: 17vh;
+		margin-left: 3%;
+	}
+	.footer_headers{
+		width: 25vw;
+	}
+	.text_block_sales{
+		height: auto;
+		align-items: flex-start;	
+		background-color: transparent;
+	}
+	.text_about_sales{
+		height: auto;
+		background-color: transparent;
+		margin-top: 0%;
+	}
+	.img_block_sales{
+		background-color: transparent;
+		height: 170vh;
+		justify-content: flex-start;
+	}
+	/*company*/
+	#but2{
+		margin-top: 4vh; 
+		margin-left: 30%;
+		margin-bottom: 10vh;
+		width: 40%;
+	}
+	/*cars*/
+	.nine_cars_tiles{
+		height: auto;
+		background-color: transparent;
+	}
+	.three_cars_tiles{
+		background-color: transparent;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+	}
+	.inside_one_car_form{
+		height: auto;
+		width: 50vw;
+	}
+	.one_car_form{
+		height: auto;
+		width: 50vw;
+		margin-bottom: 3.2vh;
+	}
+	#three_cars_tiles_1{
+		margin-bottom: 0vh;
+	}
+	#three_cars_tiles_3{
+		margin-top: 0vh;
+	}
+	.button_car{
+		font-size: 5.71vh;
+		height: 10vh;
+		letter-spacing: 2.5px;
+		width: 40vw;
+		margin-left: 5vw;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+	}
+	.inside_car_form_text{
+		font-size: 3.66vh;
+		line-height: 4.5vh;
+	}
+	#car_name{
+		font-size: 4.23vh;
+	}
+	.inside_one_car_form p{
+		margin-top: 5%;
+		font-size: 4vh;
+	}
+	.button_more{
+		height: 10vh;
+		width: 50vw;
+		margin-left: 25vw;
+		margin-bottom: 12vh;
+		margin-top: 3vh;
+	}
+	/*tours*/
+	.inside_one_tour_form{
+		height: auto;
+		width: 50vw;
+	}
+	.inside_one_tour_form p{
+		margin-top: 0%;
+		font-size: 4vh;
+	}
+	/*maincontact*/
+	#but4{
+		height: 9vh;
+	}
+
+}
+
+@media (max-width: 576px){
+	/*index*/
+	.header{
+		height: 90vh;
+		background-image: url(../images/bgheader_mobile.png);
+	}
+	.topHeader{
+		justify-content: space-between;
+		height: 15vh;
+	}
+	.logo{
+		width: 33vw;
+		margin-top: 1vh;
+	}
+	.logoimg img{
+		width: 5vh;
+		height: 5vh;
+		border-right: 0.5vh solid #C4F4C7;
+	}
+	.logoname{
+		font-size: 3vh;
+		height: 13vh;
+	}
+	.logoimg{
+		height: 13vh;
+	}
+	.akcii{
+		height: 10vh;
+		display: none;
+	}
+	.avto{
+		width: 6vw;
+		height: 10vh;
+		display: none;
+	}
+	.turi{
+		height: 10vh;
+		display: none;
+	}
+	.proCompany{
+		width: 18vw;
+		height: 10vh;
+		display: none;
+	}
+	.contactname{
+		height: 10vh;
+	}
+	.contactimg img{
+		width: 2vh;
+		height: 2vh;
+	}
+	.contactimg{
+		height: 10vh;
+	}
+	.contact{
+		height: 10vh;
+	}
+	.topHeader{
+		height: 16vh;
+	}
+	.text_header_1{
+		font-size: 4vh;
+	}
+	.text_header_1_1{
+		font-size: 2vh;
+		letter-spacing: 1.5px;
+		height: 2.5vh;
+	}
+	.midHeader{
+		padding-top: 0vh;
+		height: 20vh;
+	}
+	.botHeader{
+		padding-top: 1vh;
+		height: 18vh;
+	}
+	.button1{
+		width: 45vw; 
+    	height: 10vh;
+		font-size: 3vh;
+		letter-spacing: 1.5px; 
+		border: 0.4vh solid white; 
+		margin-top: 6vh;
+	}
+	.h_type{
+		font-size: 3.5vh;
+		padding-top: 2%;
+		letter-spacing: 1px;
+		height: 12vh;
+	}
+	.module_1{
+		flex-direction: column;
+	}
+	.landing_text{
+		height: auto;
+		width: 85vw;
+		background-color: transparent;
+	}
+	.landing_text p{
+		font-size: 2vh;
+	}
+	.img_time_to_travel{
+		height: 50vh;
+		width: 80vw;
+		padding-left: 8.2%;
+		background-color: transparent;
+		justify-content: center;
+	}
+	#h_type_2{
+		margin-top: 6%;
+	}
+	.inside_one_car_form_landing p{
+		font-size: 4vh;
+		padding-bottom: 4vh;
+	}
+	.three_cars_tiles_landing{
+		flex-direction: column;
+		width: 60%;
+		margin-left: 20%;
+	}
+	.inside_one_car_form_landing{
+		width: 100%;
+		height: auto;
+		align-items: center;
+		margin-bottom: 8%;
+	}
+	.inside_one_car_form_landing img{
+		width: 100%;
+		height: auto;
+		margin-top: 5vh;
+		max-width: 50vw;
+	}
+	.four_tours_palette{
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		
+		width: 83.6%;
+		height: auto;
+		background-color: transparent;
+		padding-left: 8.2%;
+		flex-wrap: wrap;
+	}
+	.four_tours_form{
+		width: 41vw;
+		height: auto;
+		background-color: transparent;
+		margin-bottom: 1%;
+	}
+	.four_tours_form img{
+		width: 100%;
+		max-width: 41vw;
+		height: auto;
+		/*max-height: auto;*/
+	}
+	.two_pros_block p{
+		font-size: 3vh;
+		padding-right: 0vh;
+		padding-bottom: 0vh;
+	}
+	.four_pros_palette{
+		height: auto;
+		margin-bottom: 1vh;
+		flex-direction: column;
+		background-color: transparent;
+		justify-content: center;
+		width: 70%;
+		margin-left: 15%;
+		margin-bottom: 8vh;
+	}
+	.two_pros_block{
+		height: auto;
+		background-color: transparent;
+		align-items: baseline;
+		justify-content: center;
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 2%;
+	}
+	#two_pros_block_1{
+		margin-left: 5%;
+	}
+	#pros_form_1{
+		margin-right: 2vh
+	}
+	#pros_form_3{
+		margin-right: 2vh
+	}
+	.four_pros_form img{
+		width: 100%;
+		max-width: 150px;
+		height: auto;
+		max-height: auto;
+	}
+	#h_type_2{
+		padding-top: 0%;
+		height: 10vh;
+	}
+	.logoname2 a{
+		font-size: 4vh;
+	}
+	.logoimg2 img{
+		width: 6vh;
+		height: 6vh;
+		border-right: 0.7vh solid white;
+		padding-right: 0.4vw;
+		margin-right: 0.2vw;
+	}
+	.logoimg2{
+		width: 15vw;
+	}
+	.logoname2{
+		width: 40vw;
+		padding-left: 0.4%;
+	}
+	.contact2{
+		width: 80vw;
+		height: 10vh;
+		padding-top: 1vh;
+		background-color: transparent;
+		padding-left: 0%;
+		margin-right: 1vw;
+		margin-left: 4%;
+		justify-content: flex-start;
+	}
+	.contactimg2{
+		padding-left: 4.5%;
+	}
+	.contactimg2 img{
+		width: 4vh;
+		height: 4vh;
+		margin-left: 5vw;
+	}
+	.contactname2{
+		width: 45vw;
+		margin-bottom: 2vh;
+		margin-left: 1vw;
+		background-color: transparent;
+	}
+	.contactname2 a{
+		font-size: 4vh;
+	}
+	.footer{
+		height: 128vh;
+		padding-top: 3vh;
+	}
+	.botFooter{
+		background-color: transparent;
+		padding-top: 0%;
+		height: 20vh;
+		margin-top: 1.5vh;
+		flex-direction: column-reverse;	
+		align-items: center;
+	}
+	.topFooter{
+		background-color: transparent;
+		height: 100vh;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 4vh;
+	}
+	.footer_text_block_1{
+		height: 28vh;
+		background-color: transparent;
+		margin-bottom: 3vh;
+		overflow:  hidden;
+	}
+	.footer_text_block_2{
+		height: 32vh;
+		background-color: transparent;
+		margin-bottom: 3vh;
+		overflow:  hidden;
+	}
+	.footer_text_block_3{
+		height: 27vh;
+		background-color: transparent;
+		margin-bottom: 3vh;
+		overflow:  hidden;
+	}
+	.logo2{
+		height: 10vh;
+		width: 90vw;
+		background-color: transparent;
+		justify-content: center;
+	}
+	.footer_icons_block{
+		width: 25vw;
+		height: 45vh;
+		margin-bottom: 5vh;
+		margin-right: 0%;
+		background-color: transparent;
+		transform: rotate(90deg);
+		background-color: transparent;
+	}
+	.two_icons{
+		width: 22vw;
+		height: 14vh;
+		padding-bottom: 5%;
+		padding-left: 0;
+		background-color: transparent;
+	}
+	.icon_blocks img{
+		width: 9vw;
+		max-width: 9vw;
+		transform: rotate(270deg);
+	}
+	.footer_headers{
+		height: 5vh;
+		width: 70vw;
+		font-size: 3.5vh;
+		letter-spacing: 0.2px;
+		background-color: transparent;
+	}
+	.footer_text_line{
+		height: 4vh;
+		width: 70vw;
+		font-size: 2.8vh;
+		background-color: transparent;
+	}
+
+	.topHeader{
+		width: 83.6%;
+		margin-left: 8.2%;
+		background-color: transparent;
+		justify-content: space-between;
+	}
+	.logo{
+		padding-left: 0%;
+		justify-content: flex-start;
+		background-color: transparent;
+	}
+	.contact{
+		background-color: transparent;
+		margin-left: 20%;
+		justify-content: flex-end;
+		padding-right: 1%;
+		padding-left: 1%;
+		width: 30vw;
+	}
+	.logoimg{
+		justify-content: flex-start;
+		background-color: transparent;
+		width: auto;
+		padding-right: 1%;
+	}
+	.logoname{
+		width: auto;
+		align-self: start;
+		background-color: transparent;
+	}
+	.contactname{
+		background-color: transparent;
+		width: 95px;
+		padding-right: 0%;
+		justify-content: flex-start;
+	}
+	.contactname a{
+		width: 90px;
+	}
+	.burger_block{
+		width: 20px;
+		height: 10vh;
+		background-color: transparent;
+		display: flex;
+		justify-content: center;
+	}
+	.burger_link{
+		line-height: 6vh;
+		padding-top: 3vh;
+		padding-left: 20px;
+	}
+
+	/*burger*/
+	
+	[for=burger]{
+		display: block;
+		width: 20px;
+		height: auto;
+		text-align: center;
+		background-color: transparent;
+		font-size: 3.5vh;
+		font-weight: 500;
+		align-items: center;
+		padding-top: 2.2vh;
+		color: white;
+	}
+	[for=burger]::before{
+		content: '☰';
+	}
+	nav{
+		display: none;
+		position: fixed;
+		top: 35px;
+		right: 0px;
+		margin-top: 30px;
+		background: #4D6A6D;
+		width: 83.6%;
+		margin-right: 8.2%;
+		user-select: none;
+		font-family: 'Roboto Condensed', sans-serif;
+		color: white;
+		text-decoration: none;
+		height: 50vh;
+		border-radius: 4vh;
+		border: 0.5vh solid #548C2F;
+	}
+	nav a{
+		color: white;
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 3vh;
+	}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	#burger:checked + label + nav{
+		display: block;
+		animation: show .5s ease;
+	}
+	#burger:checked +[for=burger]::before{
+		content: '⮾';
+	}
+	@keyframes show {
+		0%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
+	}
+	.text_block_sales{
+		flex-direction: column;
+	}
+	.text_block_sales{
+		height: auto;
+		align-items: flex-start;	
+		background-color: transparent;
+		width: 83.6%;
+	}
+	.text_about_sales{
+		height: auto;
+		background-color: transparent;
+		margin-top: 2%;
+		width: 100%;
+	}
+	.img_block_sales{
+		background-color: transparent;
+		height: auto;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	.img_block_sales img{
+		height: auto;
+		width: 100%;
+		max-width: 100%;
+	}
+	.sale_img{
+		margin-bottom: 4%;
+	}
+	.text_header_2{
+		letter-spacing: 1.5px;
+	}
+	#but3{
+		margin-top: 4vh; 
+		margin-left: 25%;
+		margin-bottom: 10vh;
+		width: 50%;
+	}
+	/*company*/
+	#but2{
+		margin-top: 4vh; 
+		margin-left: 25%;
+		margin-bottom: 10vh;
+		width: 50%;
+	}
+	.header_info{
+		background-image: url(../images/bgheader2_mobile.png);
+	}
+	/*cars*/
+	.inside_one_car_form{
+		height: auto;
+		width: 100%;
+	}
+	.one_car_form{
+		height: auto;
+		width: 100%;
+		margin-bottom: 3.2vh;
+	}
+	.button_car{
+		font-size: 5.71vh;
+		height: 10vh;
+		letter-spacing: 2.5px;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+	}
+	.button_more{
+		height: 10vh;
+		width: 60vw;
+		margin-left: 20vw;
+		margin-bottom: 12vh;
+		margin-top: 3vh;
+	}
+	/*tours*/
+	.inside_one_tour_form{
+		height: auto;
+		width: 100%;
+		padding-top: 20%;
+	}
+	/*tours*/
+	#t_h_320_1{
+		width: 70%;
+		height: 20vh;
+		background-color: transparent;
+		margin-bottom: 3vh;
+	}
+	#t_h_320_2{
+		height: auto;
+		background-color: transparent;
+	}
+	.midHeader{
+		background-color: transparent;
+		height: auto;
+	}
+	/*maincontact*/
+	.main_block{
+		width: 90vw;
+		height: auto;
+	}
+	.main_block p{
+		font-size: 3.5vh;
+	}
+	#p_m_1{
+		font-size: 5.5vh;
+	}
+	#p_m_4{
+		font-size: 2.8vh;
+	}
+	#phone_number a{
+		font-size: 6vh;
+	}
+	.call_input{   
+		width: 90%;
+		font-size: 5vh;
+		letter-spacing: 2.5px;
+		margin-left: 8%;
+	}
+	.call_button{ 
+		width: 75%;
+		margin-left: 12.5%;
+		font-size: 3vh;
+	}
+	#but4{
+		width: 40%;
+		margin-left: 30%;
+		margin-bottom: 4%;
+	}
+}
+
+@media (max-width: 425px){
+	/*index*/
+	.header{
+		height: 70vh;
+	}
+	.topHeader{
+		justify-content: space-between;
+		height: 16vh;
+		background-color: transparent;
+	}
+	.logo{
+		padding-left: 0%;
+		justify-content: flex-start;
+		background-color: transparent;
+		width: 50%;
+		margin-right: 0%;
+	}
+	.contact{
+		background-color: transparent;
+		margin-left: 0%;
+		justify-content: flex-start;
+		padding-right: 1%;
+		padding-left: 1%;
+		width: 40%;
+	}
+	.burger_block{
+		width: 20px;
+		height: 10vh;
+		background-color: transparent;
+		display: flex;
+		justify-content: center;
+	}
+	.logoimg{
+		justify-content: flex-start;
+		background-color: transparent;
+		width: auto;
+		padding-right: 1%;
+		margin-top: 2%;
+	}
+	.logoimg img{
+		height: 4vh;
+		width: 4vh;
+	}
+	.contactimg{
+		background-color: transparent;
+		padding-left: 0%;
+		justify-content: flex-start;
+		width: 5vw;
+	}
+	.contact img{
+		padding-left: 0%;
+		margin-left: 0%;
+	}
+	.logoname{
+		width: auto;
+		align-self: start;
+		background-color: transparent;
+	}
+	.logoname a{
+		font-size: 2.5vh;
+	}
+	.contactname{
+		background-color: transparent;
+		width: 120px;
+		padding-right: 0%;
+		justify-content: flex-start;
+	}
+	.contactname a{
+		width: 90px;
+	}
+	.text_header_1{
+		font-size: 4vh;
+		background-color: transparent;
+		width: 60%;
+		height: 22vh;
+		align-items: baseline;
+	}
+	.text_header_1_1{
+		font-size: 2vh;
+		letter-spacing: 1.5px;
+		height: 2.5vh;
+	}
+	.midHeader{
+		padding-top: 0vh;
+		height: 30vh;
+		background-color: transparent;
+	}
+	.botHeader{
+		padding-top: 1vh;
+		height: 18vh;
+		padding-left: 0%;
+		background-color: transparent;
+	}
+	.button1{
+		width: 76%; 
+		margin-left: 12%;
+    	height: 10vh;
+		font-size: 4vh;
+		letter-spacing: 1.5px; 
+		border: 0.4vh solid white; 
+		margin-top: 2vh;
+	}
+	#h_type_2{
+		margin-bottom: 1.5vh;
+		margin-top: 4vh;
+	}
+	.two_pros_block p{
+		font-size: 2.7vh;
+	}
+	[for=burger]{
+		font-size: 3vh;
+		margin-top: 0.3vh;
+	}
+	nav{
+		top: 55px;
+		height: 45vh;
+	}
+	nav a{
+		font-size: 2.5vh;
+	}
+	.burger_link{
+		line-height: 5vh;
+	}
+	.footer_icons_block{
+		width: 25vw;
+		height: 45vh;
+		margin-bottom: 5vh;
+		margin-right: 0%;
+		background-color: transparent;
+		transform: rotate(90deg);
+	}
+	.two_icons{
+		width: 30vw;
+		height: 8.5vh;
+		padding-bottom: 5%;
+		padding-left: 0;
+		background-color: transparent;
+		justify-content: flex-start;
+		margin-left: 0%;
+	}
+	.icon_blocks img{
+		width: 12vw;
+		max-width: 12vw;
+		background-color: transparent;
+		margin-right: 5px;
+	}
+	#two_icons_1{
+		padding-bottom: 0%;
+		margin-bottom: 0%;
+	}
+	#two_icons_2{
+		padding-bottom: 0%;
+		margin-bottom: 0%;
+	}
+	#two_icons_3{
+		padding-bottom: 0%;
+	}
+	.inside_one_car_form_landing p{
+		font-size: 3vh;
+		padding-bottom: 3vh;
+	}
+	.logo2{
+		height: 10vh;
+		width: 90vw;
+		background-color: transparent;
+		justify-content: center;
+	}
+	.logoname2 a{
+		font-size: 2.5vh;
+	}
+	.logoimg2 img{
+		width: 4vh;
+		height: 4vh;
+		border-right: 0.5vh solid white;
+		padding-right: 0.4vw;
+		margin-right: 0.2vw;
+	}
+	.logoimg2{
+		width: 15vw;
+	}
+	.logoname2{
+		width: 40vw;
+		padding-left: 0.4%;
+	}
+	.contact2{
+		width: 80vw;
+		height: 10vh;
+		padding-top: 1vh;
+		background-color: transparent;
+		padding-left: 0%;
+		margin-right: 1vw;
+		margin-left: 0%;
+		justify-content: flex-start;
+	}
+	.contactimg2{
+		padding-left: 4.5%;
+	}
+	.contactimg2 img{
+		width: 3vh;
+		height: 3vh;
+		margin-left: 0vw;
+	}
+	.contactname2{
+		width: 45vw;
+		margin-bottom: 2vh;
+		margin-left: 1vw;
+		background-color: transparent;
+	}
+	.contactname2 a{
+		font-size: 3vh;
+	}
+	.footer{
+		height: 128vh;
+		padding-top: 3vh;
+	}
+	.botFooter{
+		background-color: transparent;
+		padding-top: 0%;
+		height: 20vh;
+		margin-top: 1.5vh;
+		flex-direction: column-reverse;	
+		align-items: center;
+	}
+	.topFooter{
+		background-color: transparent;
+		height: 100vh;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 4vh;
+	}
+	/*sales*/
+	#h_type_3{
+		background-color: transparent;
+		width: 80%;
+	}
+	#but3{
+		margin-top: 4vh; 
+		margin-left: 15%;
+		margin-bottom: 10vh;
+		width: 70%;
+	}
+	/*company*/
+	#but2{
+		margin-top: 4vh; 
+		margin-left: 15%;
+		margin-bottom: 10vh;
+		width: 70%;
+	}
+	/*cars*/
+	.button_car{
+		font-size: 5vh;
+		height: 10vh;
+		letter-spacing: 1.5px;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+	}
+	/*tours*/
+	#t_h_320_1{
+		width: 80%;
+		background-color: transparent;
+	}
+	#t_h_320_2{
+		height: auto;
+		width: 80%;
+		background-color: transparent;
+	}
+	.midHeader{
+		background-color: transparent;
+		height: auto;
+	}
+	/*maincontact*/
+	.main_block p{
+		font-size: 3vh;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	#p_m_1{
+		font-size: 5vh;
+	}
+	#p_m_4{
+		font-size: 2.5vh;
+	}
+	#phone_number a{
+		font-size: 5vh;
+	}
+	.call_input{   
+		font-size: 4vh;
+		letter-spacing: 2px;
+		margin-left: 8%;
+	}
+	.call_button{ 
+		width: 80%;
+		margin-left: 10%;
+		font-size: 2.5vh;
+		height: 7vh;
+		margin-top: 5%;
+	}
+	#but4{
+		width: 70%;
+		margin-left: 15%;
+		margin-bottom: 4%;
+	}
+}
+
